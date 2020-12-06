@@ -12424,8 +12424,8 @@ TEST_POINT
 <parts>
 <part name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="CT6" package3d_urn="urn:adsk.eagle:package:22692/1" value="2M"/>
 <part name="U$1" library="FormE" deviceset="TLV9102" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100k"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="SCREW" package3d_urn="urn:adsk.eagle:package:38090/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12487,7 +12487,7 @@ TEST_POINT
 <attribute name="VALUE" x="35.56" y="96.52" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP1" gate="G$1" x="104.14" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.6" y="66.04" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="106.68" y="71.12" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP2" gate="G$1" x="109.22" y="101.6" smashed="yes">
 <attribute name="NAME" x="114.3" y="101.6" size="1.778" layer="95" font="vector"/>
@@ -12516,7 +12516,7 @@ TEST_POINT
 <instance part="U$2" gate="G$1" x="50.8" y="86.36" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="50.8" y="76.2" smashed="yes"/>
 <instance part="TP7" gate="G$1" x="99.06" y="58.42" smashed="yes">
-<attribute name="NAME" x="104.14" y="58.42" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="104.14" y="55.88" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="H3" gate="G$1" x="71.12" y="45.72" smashed="yes">
 <attribute name="NAME" x="73.152" y="46.3042" size="1.778" layer="95"/>
